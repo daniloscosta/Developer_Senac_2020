@@ -1,0 +1,1 @@
+console.log('Teste de instalação de ambiente de desenvolvimento');
