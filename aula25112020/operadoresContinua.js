@@ -14,21 +14,16 @@ console.log(num1);
 
 // Operadores de comparação (Retornam um booleano)
 // = -> Atribuição
-let numAnon = 16;
+let numAnon = 16; // 16
 console.log(numAnon);
 // Igualdade de valor
-console.log(10 == '10');
+console.log(10 == '10'); // true
 // Igualdade de valor e tipo
-console.log(20 === '20');
+console.log(20 === '20'); // false
 // Diferente comparação de valor 
-console.log(10 != '10');
+console.log(10 != '10'); //false
 // Diferente comparação valor e tipo
-console.log(10 !== '10');
-
-/*Concatenação lógica 'ou', é necessário que
-pelo menos que um teste seja verdadeiro para
-que o resultado seja verdadeiro.
-*/
+console.log(10 !== '10'); //true
 
 /* ||
 Concatenação lógica 'ou', é necessário que pelo
@@ -36,7 +31,7 @@ menos que um teste seja verdadeiro para
 retorna verdadeiro
 */
 let x = 10, y = '5';
-if (x == 10 || y ===5) {
+if (x == 10 || y === 5) {
     console.log('Teste lógico verdadeiro');
 } else {
     console.log('Teste lógico falso');
@@ -46,6 +41,13 @@ if (x == 10 || y ===5) {
 Concatenação lógica 'e', é necessário que todos 
 os testes sejam verdadeiros para retornar verdadeiro
 */
+let x = 10, y = '5';
+if (x == 10 && y === 5) {
+    console.log('Teste lógico verdadeiro');
+} else {
+    console.log('Teste lógico falso');
+}
+
 /*>, <, >=, <=
 Comparação: maior do que; menor do que;
 maior igual a; menor igual a

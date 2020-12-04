@@ -8,3 +8,4 @@ console.log(frutas[1]);
 let adiciona = frutas.push('Laranja');
 console.log(frutas.length);
 console.log(frutas[2]);
+
