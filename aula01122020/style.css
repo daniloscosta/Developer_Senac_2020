@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+    color: brown;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: solid 5px chocolate;
+    box-shadow: rgb(25, 189, 189) 5px 5px 10px;
+    background-color: darkkhaki;
+}
+
+h2 {
+    color: darkred;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+div{
+    color: red;
+    font-size: 20px;
+}

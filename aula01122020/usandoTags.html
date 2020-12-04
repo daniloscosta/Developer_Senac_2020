@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Aula 01/12/2020</title>
+</head>
+<body>
+    <h1>Tag's HTML</h1>
+    <h2>Usando Tag's</h2>
+
+    <div id="adicao"></div>
+    <div id="subtracao"></div>
+    <div id="multiplicacao"></div>
+    <div id="divisao"></div>
+    <div id="imc"></div>
+
+    <script>
+        let x = 20;
+        let y = 10;
+        let z;
+        let = peso = 72;
+        let altura = 1.65;
+        let imc;
+
+        z = x + y;
+        document.getElementById("adicao").innerHTML = 'Adição: ' + z;
+        z = x - y;
+        document.getElementById("subtracao").innerHTML = 'subtração: ' + z + "<br>";
+        z = x * y;
+        document.getElementById("multiplicacao").innerHTML = 'multiplicação: ' + z + "<br>";
+        z = x / y;
+        document.getElementById("divisao").innerHTML = 'divisão: ' + z + "<br>";
+        imc = peso / (altura * altura)
+        document.getElementById("imc").innerHTML = 'imc: ' + imc.toFixed(2) + "<br>";
+    </script>
+
+
+</body>
+</html>
